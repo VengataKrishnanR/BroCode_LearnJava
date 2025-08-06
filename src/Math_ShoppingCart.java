@@ -1,7 +1,6 @@
-import java.sql.SQLOutput;
 import java.util.*;
 
-public class ShoppingCart {
+public class Math_ShoppingCart {
     public static void main(String arg[])
     {
         Scanner scanner = new Scanner(System.in);
