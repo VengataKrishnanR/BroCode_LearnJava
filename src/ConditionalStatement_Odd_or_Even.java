@@ -1,3 +1,6 @@
+// This code is a practice code in terms of Conditional statement called Odd or Even
+
+//if you run this code you need to feed the number that you need to find the given number is odd or even based on the value the code will return your the result
 import java.util.Scanner;
 
 public class ConditionalStatement_Odd_or_Even {
@@ -16,5 +19,6 @@ public class ConditionalStatement_Odd_or_Even {
             System.out.println("The Number Entered " + num + " is a Odd Number");
         }
 
+        scanner.close();
     }
 }

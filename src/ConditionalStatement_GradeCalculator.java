@@ -1,5 +1,9 @@
+// This code is a practice code in terms of Conditional statement called Grade Calculator
+
+//if you run this code you need to feed the mark which you have secured and based on the value the code will return your Grade
+
 import java.util.Scanner;
-//
+
 public class ConditionalStatement_GradeCalculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
