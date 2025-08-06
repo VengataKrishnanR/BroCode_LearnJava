@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Math_HypotenusCalc {
+public class Math_HypotenusCalculation {
 
     public static void main(String[] arg){
 
