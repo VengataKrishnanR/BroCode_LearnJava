@@ -1,12 +1,12 @@
 import java.util.*;
 
 public class Math_ShoppingCart {
-    public static void main(String arg[])
+    public static void main(String[] arg)
     {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter the Product you want to Buy: (Pizza and Burger): ");
-        String product = scanner.nextLine();
+
 
         System.out.println("Enter the Quantity: ");
         int quantity = scanner.nextInt();

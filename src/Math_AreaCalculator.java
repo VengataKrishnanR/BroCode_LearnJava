@@ -3,9 +3,8 @@ import java.util.Scanner;
 
 class Areacalculator
 {
-    public static void main(String[] args) throws java.lang.Exception
+    public static void main(String[] args)
     {
-        double area = 0;
 
         Scanner scanner = new Scanner (System.in);
 
@@ -16,6 +15,8 @@ class Areacalculator
 
         System.out.println("What is the width of the Triangle");
         double width = scanner.nextDouble();
+
+        double area;
 
         area = width * hight;
 
