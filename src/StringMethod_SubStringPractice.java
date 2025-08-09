@@ -7,14 +7,19 @@ public class StringMethod_SubStringPractice {
         System.out.println("Enter the Email Address: ");
         String   email = scanner.next();
 
-        String username = email.substring(0,email.indexOf("@"));
-        int atIndex = email.indexOf("@");
-        int dotIndex = email.indexOf(".", atIndex);  // Start searching from after '@'
+        if(email.contains("@") && email.contains(".")) {
+            String username = email.substring(0, email.indexOf("@"));
+            int atIndex = email.indexOf("@");
+            int dotIndex = email.indexOf(".", atIndex);  // Start searching from after '@'
 
-        String domain = email.substring(atIndex + 1, dotIndex);
+            String domain = email.substring(atIndex + 1, dotIndex);
 
-        System.out.println("The UserName is "+ username);
-        System.out.println("The Domain is "+ domain);
+            System.out.println("The UserName is " + username);
+            System.out.println("The Domain is " + domain);
+        }
+        else{
+            System.out.println("Enter Valid Email address");
+        }
 
         scanner.close();
     }
